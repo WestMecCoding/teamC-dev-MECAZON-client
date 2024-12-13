@@ -5,7 +5,7 @@ export default function Navbar() {
     <nav className={styles.nav}>
       <Link to="/">Home</Link>
       <Link to="/groceries">Groceries</Link>
-      <Link to="/">Admin</Link>
+      {/* <Link to="/">Admin</Link> */}
     </nav>
   );
 }

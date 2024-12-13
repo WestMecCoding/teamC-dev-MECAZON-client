@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import GroceryList from "../components/GroceryList";
-import { sortAscending, filterByCategory } from "../utils/groceryFunctions";
+import { sortAscending, filterByCategory } from "../utils/groceryFunctions.js";
 import axios from "axios";
 
 export default function Groceries() {
