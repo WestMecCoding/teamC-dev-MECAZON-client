@@ -26,3 +26,154 @@
   background: black;
   color: white;
 }
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.cartitems{
+    margin: 100px 170px;
+}
+.cartitems hr {
+    height: 3px;
+    background: #e2e2e2;
+    border: 0;
+}
+.cartitems-format-main{
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    gap: 75px;
+    padding: 20px 0px;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+}
+.cartitems-format{
+    font-size: 17px;
+    font-weight: 500;
+}
+.carticon-product-icon{
+    height: 62px;
+}
+.cartitems-remove-icon{
+    width: 15px;
+    margin: 0px 40px;
+    cursor: pointer;
+}
+.cartitems-quantity{
+    width: 64px;
+    height: 50px;
+    border: 2px solid #ebebeb;
+    background: white;
+}
+.cartitems-down {
+    display: flex;
+    justify-content: space-between;
+    gap: 90px;
+    margin-top: 50px;
+    margin: 100px 0px
+}
+
+.cartitems-total {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.cartitems-total-item {
+font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px 0px;
+    width: 100%;
+}
+
+
+.cartitems-total-item p {
+    font-family: "Roboto", sans-serif;
+
+    margin: 0;
+}
+
+.cartitems-total button {
+    font-family: "Roboto", sans-serif;
+    width: 262px;
+    height: 58px;
+    outline: none;
+    border: none;
+    background: #F78E11;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.cartitems-promocode {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.cartitems-promocode p {
+    color: grey;
+}
+
+.cartitems-promobox {
+    /* width: 80%; */
+    margin-top: 15px;
+    padding-left: 20px;
+    height: 58px;
+    background-color: #eaeaea;
+}
+
+.cartitems-promobox input {
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 16px;
+    width: 293px;
+    height: 50px;
+}
+
+.cartitems-promobox button {
+   font-family: "Roboto", sans-serif;
+    width: 170px;
+    height: 58px;
+    font-size: 16px;
+    border: 1px solid grey;
+    background: #F78E11;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.order-success-message {
+    background-color: #dff0d8;
+    color: #3c763d;
+    padding: 20px;
+    margin-top: 20px;
+    border: 1px solid #d6e9c6;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+@media (max-width: 599px) {
+
+}
+
+
+@media (min-width: 600px) and (max-width: 1024px) {
+
+}
+
+
+

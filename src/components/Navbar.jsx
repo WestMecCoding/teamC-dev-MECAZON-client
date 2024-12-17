@@ -1,6 +1,7 @@
+import React from "react";
 import { Link } from "react-router-dom";
 import styles from "../styles/Navbar.module.css";
-import iconCart from "/cart.png";
+import CartIcon from "./CartIcon";
 
 export default function Navbar() {
   return (
@@ -8,10 +9,7 @@ export default function Navbar() {
       <Link to="/">Home</Link>
       <Link to="/groceries">Groceries</Link>
       <Link to="/cart">
-        <div className={styles.nav}>
-          <img src={iconCart} alt="" className={styles.nav} />
-          <span>0</span>
-        </div>
+        <CartIcon></CartIcon>
       </Link>
     </nav>
   );
