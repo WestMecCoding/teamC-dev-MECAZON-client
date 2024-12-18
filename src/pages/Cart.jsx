@@ -37,6 +37,7 @@ export default function Cart() {
                   alt=""
                   className="carticon-product-icon"
                 />
+                <button onClick={() => deleteItemFromCart(item.id)}>x</button>
                 <p>{item.name}</p>
                 <p>${item.price}</p>
                 <div className={styles.counter}>
